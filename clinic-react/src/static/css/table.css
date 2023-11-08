@@ -1,0 +1,17 @@
+.table--user {
+    width: 90%;
+    margin: 24px auto;
+}
+
+.table--user > thead th{
+    background-color: lightblue;
+    padding: 20px;
+}
+
+.table--user > tbody tr:nth-child(even) {
+    background-color: lightgray;
+}
+
+.table--user > tbody td {
+    padding: 20px;
+}

@@ -1,0 +1,86 @@
+section.invoice-detail {
+    width: 90%;
+    margin: 16px auto;
+}
+
+.table--invoice {
+    width: 90%;
+    margin: auto;
+}
+
+.table--invoice th, td {
+    border: 1px solid black;
+}
+
+.cell-head {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.cell-head > .cell {
+    width: calc(90% / 5);
+    display: inline-block;
+    margin-right: 2px;
+    padding: 8px 12px;
+    background-color: black;
+    text-align: center;
+    color: white;
+    margin-bottom: 3px;
+}
+
+.cell-body> .cell {
+    text-align: left;
+    width: calc(90% / 5);
+    display: inline-block;
+    margin-right: 2px;
+    padding: 8px 12px;
+    text-align: center;
+    background-color: lightgray;
+    margin-bottom: 3px;
+}
+
+.invoice-details--title {
+    background-color: black;
+    color: white;
+    text-align: center;
+    letter-spacing: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.invoice-details--info-patient {
+    margin-top: 15px;
+}
+
+.invoice-details--info-patient > h5 {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.invoice-details--info-invoice {
+    margin-left: 60%;
+}
+
+.invoice-details--info-invoice > .invoice-details--info-invoice--thead  span:first-child {
+    background-color: lightgray;
+    display: inline-block;
+    width: 150px;
+    height: 35px;
+    line-height: 35px;
+    font-weight: bold;
+    padding-left: 8px;
+    border: 1px solid black;
+}
+
+.invoice-details--info-invoice > .invoice-details--info-invoice--thead  span:nth-child(2) {
+    display: inline-block;
+    width: 200px;
+    height: 35px;
+    line-height: 35px;
+    font-weight: bold;
+    margin: 1px 12px;
+    padding-left: 8px;
+    border: 1px solid black;
+}
+
+.invoice--table {
+    margin-top: 24px;
+}

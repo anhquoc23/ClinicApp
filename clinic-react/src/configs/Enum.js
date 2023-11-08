@@ -1,0 +1,21 @@
+
+export const USER_ROLE = {
+    PATIENT: 'PATIENT',
+    DOCTOR: 'DOCTOR',
+    NURSE: 'NURSE',
+    ADMIN: 'ADMIN',
+    OWNER: 'OWNER'
+}
+
+export const APPOINTMENT_STATUS = {
+    WAITTING: 'WAITTING',
+    CONFIRMED: 'CONFIRMED',
+    CANCLED: 'CANCLED',
+    PRESENT: 'PRESENT',
+    ABSENT: 'ABSENT'
+}
+
+export const INVOICE_STATUS = {
+    ACCEPTED: 'ACCEPTED',
+    PENDING: 'PENDING'
+}
