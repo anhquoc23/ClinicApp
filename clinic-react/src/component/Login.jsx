@@ -98,7 +98,7 @@ const Login = () => {
           <h5 className="text-dark">
             Bạn Chưa có tài khoản?{" "}
             <Link to="/register">
-              <b>Đăng Nhập tại đây!</b>
+              <b>Đăng Ký tại đây!</b>
             </Link>
           </h5>
         </Form>

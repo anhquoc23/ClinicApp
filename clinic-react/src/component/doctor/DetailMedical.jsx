@@ -62,7 +62,7 @@ const DetailMedical = () => {
         <div class="info--patient">
           <div class="field">
             <span class="field--name">Ngày Khám</span>{" "}
-            <span class="value">{detail.createdDate}</span>
+            <span class="value">{new Date(detail.createdDate).toISOString().split('T')[0]}</span>
           </div>
         </div>
         <div class="info--patient">
